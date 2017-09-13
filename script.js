@@ -61,8 +61,7 @@ class Factory {
 
       }
     }
-    let carberAcht = new Car()
-    console.log(carberAcht);
+    
 
     // CREATE A SUB-CLASS CALLED SPORT
     // It should extend from Car.
