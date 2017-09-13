@@ -61,7 +61,7 @@ class Factory {
 
       }
     }
-    
+
 
     // CREATE A SUB-CLASS CALLED SPORT
     // It should extend from Car.
@@ -93,6 +93,8 @@ class Factory {
     // Write your code below:
 class Truck extends Factory {constructor(model, color, trim, enginesize, hitch, bed, navigation){
   super()
+  this.backupcamera=true,
+  this.audio='basic'
   this.model = model,
   this.color =  color,
   this.trim = trim,
@@ -100,7 +102,8 @@ class Truck extends Factory {constructor(model, color, trim, enginesize, hitch, 
   this.hitch = hitch,
   this.bed = bed,
   this.navigation = navigation,
-  this.standard = {backupcamera:true, audio:'basic'}
+  this.backupcamera=true,
+  this.audio='basic'
 }}
     // LET'S BUILD SOME CARS AND TRUCKS!
 
